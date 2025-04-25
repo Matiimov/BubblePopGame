@@ -63,6 +63,14 @@ struct HomeView: View {
                 }
                 Spacer()  /// Balance bottom spacing
             }
+            .background(
+                Color(
+                    red: 225.0/255.0,
+                    green: 247.0/255.0,
+                    blue: 200.0/255.0
+                )
+                    .ignoresSafeArea()
+            )
             
             // MARK: Navigation Bar Configuration
             .navigationTitle("")  /// Hide default title
@@ -82,8 +90,10 @@ struct HomeView: View {
                 SettingsView()  /// Present SettingsView
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())  /// For correct view on iPad
     }
 }
+ 
 
 // MARK: - Preview
 struct HomeView_Previews: PreviewProvider {

@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		52AE98FC2DBB64AD00423009 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F22DBB64AD00423009 /* GameEngine.swift */; };
+		52AE98FD2DBB64AD00423009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F62DBB64AD00423009 /* HomeView.swift */; };
+		52AE98FE2DBB64AD00423009 /* HighScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98ED2DBB64AD00423009 /* HighScoreManager.swift */; };
+		52AE98FF2DBB64AD00423009 /* HighScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F52DBB64AD00423009 /* HighScoreView.swift */; };
+		52AE99002DBB64AD00423009 /* PopEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98EE2DBB64AD00423009 /* PopEffect.swift */; };
+		52AE99012DBB64AD00423009 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98EC2DBB64AD00423009 /* Bubble.swift */; };
+		52AE99022DBB64AD00423009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F42DBB64AD00423009 /* ContentView.swift */; };
+		52AE99032DBB64AD00423009 /* BubblePopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98FA2DBB64AD00423009 /* BubblePopApp.swift */; };
+		52AE99042DBB64AD00423009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F72DBB64AD00423009 /* SettingsView.swift */; };
+		52AE99052DBB64AD00423009 /* StyledButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE98F02DBB64AD00423009 /* StyledButtonExtension.swift */; };
+		52AE99062DBB64AD00423009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AE98F92DBB64AD00423009 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		523DC3342DB872BD003F8737 /* BubblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AE98EC2DBB64AD00423009 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		52AE98ED2DBB64AD00423009 /* HighScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreManager.swift; sourceTree = "<group>"; };
+		52AE98EE2DBB64AD00423009 /* PopEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopEffect.swift; sourceTree = "<group>"; };
+		52AE98F02DBB64AD00423009 /* StyledButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButtonExtension.swift; sourceTree = "<group>"; };
+		52AE98F22DBB64AD00423009 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		52AE98F42DBB64AD00423009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52AE98F52DBB64AD00423009 /* HighScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreView.swift; sourceTree = "<group>"; };
+		52AE98F62DBB64AD00423009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52AE98F72DBB64AD00423009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52AE98F92DBB64AD00423009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AE98FA2DBB64AD00423009 /* BubblePopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		523DC3362DB872BD003F8737 /* BubblePop */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BubblePop;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		523DC3312DB872BD003F8737 /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		523DC32B2DB872BD003F8737 = {
 			isa = PBXGroup;
 			children = (
-				523DC3362DB872BD003F8737 /* BubblePop */,
+				52AE98FB2DBB64AD00423009 /* BubblePop */,
 				523DC3352DB872BD003F8737 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,56 @@
 				523DC3342DB872BD003F8737 /* BubblePop.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		52AE98EF2DBB64AD00423009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52AE98EC2DBB64AD00423009 /* Bubble.swift */,
+				52AE98ED2DBB64AD00423009 /* HighScoreManager.swift */,
+				52AE98EE2DBB64AD00423009 /* PopEffect.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52AE98F12DBB64AD00423009 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52AE98F02DBB64AD00423009 /* StyledButtonExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		52AE98F32DBB64AD00423009 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52AE98F22DBB64AD00423009 /* GameEngine.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52AE98F82DBB64AD00423009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AE98F42DBB64AD00423009 /* ContentView.swift */,
+				52AE98F52DBB64AD00423009 /* HighScoreView.swift */,
+				52AE98F62DBB64AD00423009 /* HomeView.swift */,
+				52AE98F72DBB64AD00423009 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52AE98FB2DBB64AD00423009 /* BubblePop */ = {
+			isa = PBXGroup;
+			children = (
+				52AE98FA2DBB64AD00423009 /* BubblePopApp.swift */,
+				52AE98F92DBB64AD00423009 /* Assets.xcassets */,
+				52AE98EF2DBB64AD00423009 /* Models */,
+				52AE98F32DBB64AD00423009 /* ViewModels */,
+				52AE98F82DBB64AD00423009 /* Views */,
+				52AE98F12DBB64AD00423009 /* Utilities */,
+			);
+			path = BubblePop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +126,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				523DC3362DB872BD003F8737 /* BubblePop */,
 			);
 			name = BubblePop;
 			packageProductDependencies = (
@@ -109,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AE99062DBB64AD00423009 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AE98FC2DBB64AD00423009 /* GameEngine.swift in Sources */,
+				52AE98FD2DBB64AD00423009 /* HomeView.swift in Sources */,
+				52AE98FE2DBB64AD00423009 /* HighScoreManager.swift in Sources */,
+				52AE98FF2DBB64AD00423009 /* HighScoreView.swift in Sources */,
+				52AE99002DBB64AD00423009 /* PopEffect.swift in Sources */,
+				52AE99012DBB64AD00423009 /* Bubble.swift in Sources */,
+				52AE99022DBB64AD00423009 /* ContentView.swift in Sources */,
+				52AE99032DBB64AD00423009 /* BubblePopApp.swift in Sources */,
+				52AE99042DBB64AD00423009 /* SettingsView.swift in Sources */,
+				52AE99052DBB64AD00423009 /* StyledButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +341,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = matiimov.BubblePop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -294,9 +373,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = matiimov.BubblePop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};

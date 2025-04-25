@@ -40,7 +40,3 @@ BubblePop is a fun and fast‑paced iOS game built in SwiftUI. Players tap color
    ```
 3. Select a simulator or device and hit **Run (⌘R)**.
 
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
